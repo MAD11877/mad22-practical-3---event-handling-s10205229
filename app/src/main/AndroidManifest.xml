@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Week2Tutorial">
         <activity
-            android:name="sg.edu.np.mad.week2tutorial.ListActivity"
+            android:name=".MessageGroup"
+            android:exported="false" />
+        <activity
+            android:name="sg.edu.np.mad.madpractical.ListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

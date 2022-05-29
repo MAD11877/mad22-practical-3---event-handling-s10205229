@@ -1,4 +1,4 @@
-package sg.edu.np.mad.week2tutorial;
+package sg.edu.np.mad.madpractical;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

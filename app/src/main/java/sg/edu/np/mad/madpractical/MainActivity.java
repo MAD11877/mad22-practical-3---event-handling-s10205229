@@ -57,7 +57,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+            // CREATE BUTTON TO MOVE TO THE NEXT PAGE
+            Button click = findViewById(R.id.button2);
+            click.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
+                    // PROCEED TO THE NEW PAGE
+                    Intent msg = new Intent(MainActivity.this, MessageGroup.class);
+
+                }
+            });
 
         }
 
